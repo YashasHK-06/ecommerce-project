@@ -1,3 +1,5 @@
+import axios from "axios";
+axios.defaults.baseURL = "https://yashas-ecommerce-api.onrender.com";
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
