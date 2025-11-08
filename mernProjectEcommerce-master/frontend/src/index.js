@@ -10,6 +10,7 @@ import axios from "axios"; // This import was moved up with the others
 
 // ALL OTHER CODE (like setting baseURL) comes AFTER imports
 axios.defaults.baseURL = "https://yashas-ecommerce-api.onrender.com";
+axios.defaults.withCredentials = true;
 
 const options = {
   timeout: 5000,
